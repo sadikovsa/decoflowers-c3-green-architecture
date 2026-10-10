@@ -1,0 +1,105 @@
+{
+  "direction": "C3 Green Architecture",
+  "reviewed": true,
+  "notes": "AI generated illustrative architectural scenes; no actual product or completed project claims. All scenes generated separately from UI-free hero. Macros generated separately, no UI screenshot cropping. WebP encoding only. hero-wall duplicates initial atlas state intentionally.",
+  "assets": [
+    {
+      "filename": "hero-atlas.webp",
+      "source": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 577650,
+      "sha256": "71d17c3bc7cdd4c71cb1441ae319bacfb5c08ee6aa4f635bb43c8b0b86959105",
+      "reference": "/workspace/work/premium-prospects/c-research/designs/DecoFlowers-C-3.png"
+    },
+    {
+      "filename": "hero-wall.webp",
+      "source": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 577650,
+      "sha256": "71d17c3bc7cdd4c71cb1441ae319bacfb5c08ee6aa4f635bb43c8b0b86959105",
+      "reference": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png"
+    },
+    {
+      "filename": "hero-object.webp",
+      "source": "/workspace/generated_images/exec-3123323c-634a-4b1a-90d3-d921ede820c2.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 530560,
+      "sha256": "38b42a29ab83ced58174b1f47f16bead6e2937ad7a3c130011d15e05a3f1ba22",
+      "reference": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png"
+    },
+    {
+      "filename": "hero-composition.webp",
+      "source": "/workspace/generated_images/exec-61bb7463-000d-43e7-b833-4b9b7bcd76a1.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 498366,
+      "sha256": "03e13e36a68c1c2e35cbab734ba75e9151e82d4bad19bdc2bbd5caa174e21785",
+      "reference": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png"
+    },
+    {
+      "filename": "macro-tree.webp",
+      "source": "/workspace/generated_images/exec-6bbb5643-e2cb-4494-8d6b-c206f60e0dca.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1200,
+        900
+      ],
+      "bytes": 385396,
+      "sha256": "eec7bffc02855fc04efa3b758044b1c7ada58fcd4aec3d49f2debf16fe2e604b",
+      "reference": "/workspace/generated_images/exec-3123323c-634a-4b1a-90d3-d921ede820c2.png"
+    },
+    {
+      "filename": "macro-composition.webp",
+      "source": "/workspace/generated_images/exec-0425419f-9bd3-4fe4-b1ce-5e173e32b7c0.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1200,
+        900
+      ],
+      "bytes": 463080,
+      "sha256": "92641706f5643c077d9a961330e6d9656dfe81c4ae431e7fe6f993fdd748987c",
+      "reference": "/workspace/generated_images/exec-61bb7463-000d-43e7-b833-4b9b7bcd76a1.png"
+    },
+    {
+      "filename": "macro-wall.webp",
+      "source": "/workspace/generated_images/exec-7f723934-9154-4daa-b561-a846cbb0dae9.png",
+      "generation_tool": "image_gen.imagegen",
+      "illustrative": true,
+      "real_brand_project": false,
+      "dimensions": [
+        1200,
+        900
+      ],
+      "bytes": 534174,
+      "sha256": "ac7f105080696bffd1a985b0102cfe6e7f93f9a86194075238f5f3b47ed3a9a4",
+      "reference": "/workspace/generated_images/exec-faa23cec-5ca1-4975-ab9c-d6e9179d0e71.png"
+    }
+  ]
+}

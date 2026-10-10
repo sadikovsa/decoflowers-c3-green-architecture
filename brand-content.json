@@ -1,0 +1,86 @@
+{
+  "name": "DecoFlowers",
+  "city": "Ташкент",
+  "brandSource": "https://www.instagram.com/decoflowersuz/",
+  "positioning": "Искусственная флористика и озеленение интерьера под ключ.",
+  "usableCopy": {
+    "intro": "От готовой цветочной композиции до вертикальной фитостены. DecoFlowers объединяет декоративные цветы, растения, вазы и интерьерные аксессуары с услугами оформления пространства.",
+    "directions": "В шоуруме — готовые композиции с вазами и кашпо разных цветов и дизайнов, декоративная зелень и искусственные деревья. Для проектов предусмотрено оформление интерьера под ключ.",
+    "business": "Работаем оптом и в розницу. Доставка по всему Узбекистану; состав заказа, наличие и условия обсуждаются с шоурумом."
+  },
+  "facts": [
+    {
+      "text": "Декорация вертикальных фитостен.",
+      "source": "https://www.instagram.com/decoflowersuz/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Озеленение интерьера под ключ.",
+      "source": "https://www.instagram.com/decoflowersuz/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "20 лет в бизнесе — собственное заявление в индексируемой биографии; не представлять как независимо проверенное.",
+      "source": "https://www.instagram.com/decoflowersuz/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Цветы, растения, книги и вазы для интерьера представлены в шоуруме.",
+      "source": "https://www.instagram.com/decoflowersuz/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Готовые композиции из искусственных цветов и растений в вазах/кашпо разных цветов и дизайна.",
+      "source": "https://www.instagram.com/reel/C-klcaHq_Yt/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Доставка по всей Республике Узбекистан.",
+      "source": "https://www.instagram.com/reel/DKzouSAM45f/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Искусственная зелень для офисов, дачных участков, кафе и ресторанов.",
+      "source": "https://www.instagram.com/decoflowersuz/",
+      "evidence": "image search indexed brand caption"
+    },
+    {
+      "text": "Буксовое искусственное дерево с белым горшком для дома, офиса, магазина, клиники.",
+      "source": "https://www.instagram.com/p/C-NNCaIiYo_/",
+      "evidence": "brand product indexed caption"
+    }
+  ],
+  "categories": [
+    "Готовые композиции",
+    "Искусственные деревья",
+    "Декоративная зелень",
+    "Вазы и кашпо",
+    "Вертикальные фитостены",
+    "Интерьерные аксессуары"
+  ],
+  "products": [],
+  "images": [],
+  "contacts": [
+    {
+      "text": "+998 90 019 09 01",
+      "source": "https://www.instagram.com/reel/DKzouSAM45f/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "Массив Аль-Хорезми-1, 9, Ташкент.",
+      "source": "https://www.instagram.com/reel/DKzouSAM45f/",
+      "evidence": "brand-authored indexed excerpt"
+    },
+    {
+      "text": "10:00–21:00 указано в публикации, текущий график требует уточнения.",
+      "source": "https://www.instagram.com/reel/C-klcaHq_Yt/",
+      "evidence": "brand-authored indexed excerpt"
+    }
+  ],
+  "limitations": [
+    "Instagram/Threads не отдают страницы через Firecrawl; доступен поисковый индекс, но не вся лента.",
+    "Новые изображения Instagram crawler возвращают HTML вместо изображения; их не использовать. Две настоящие фотографии шоурума уже находятся в исходной папке prospect-assets.",
+    "Yandex перечисляет Paygah Street; авторские публикации указывают Аль-Хорезми-1, 9. Адрес нуждается в подтверждении.",
+    "Конкретные договоры, монтажные сроки, гарантии, цены и материалы вроде латекса/силикона не подтверждены; не добавлять."
+  ]
+}
