@@ -13,3 +13,67 @@
 
 /* Keep long Russian copy and native select intrinsic widths within the contact grid. */
 .contact{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.contact-intro,.contact form{min-width:0;max-width:100%}.contact input,.contact textarea,.contact select{min-width:0;max-width:100%}.contact-intro h2{overflow-wrap:normal}@media(max-width:600px){.contact{grid-template-columns:minmax(0,1fr)}.contact-intro h2{font-size:clamp(39px,10.8vw,60px)}.contact-number{font-size:clamp(22px,6.7vw,26px)}}
+
+/* State-specific hero notes, real photographic plates, and compact contact. */
+[hidden]{display:none!important}
+.hero:has(input[value="wall"]:not(:checked)) .scene-notes{display:none}
+.solution-photo img{height:650px;object-fit:contain;background:var(--paper)}
+.plate-note{display:block;font-size:10px;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.solution-photo .plate-note{margin-top:14px}
+.accordion .accordion-body{display:grid;grid-template-columns:minmax(110px,30%) minmax(0,1fr);align-items:center;gap:24px;padding-bottom:24px}
+.accordion .accordion-photo{height:auto;aspect-ratio:4/5;object-fit:contain;background:var(--paper)}
+.accordion .accordion-copy{min-width:0}
+.accordion .accordion-copy p{padding:0;font-size:14px}
+.accordion .accordion-copy a{margin:12px 0 0}
+.faq .accordion-body{grid-template-columns:120px minmax(0,1fr);gap:20px}
+.showroom-spread{display:block;max-width:850px}
+.showroom-spread figure:first-child img,.showroom-spread figure:last-child img{height:auto;aspect-ratio:4/3;object-fit:cover}
+.showroom-spread figure:last-child{width:100%}
+.showroom-footer{margin-top:25px}
+.contact.section{padding-top:50px;padding-bottom:45px;gap:48px}
+.contact-intro h2{font-size:clamp(43px,4.8vw,68px)}
+.contact-intro .eyebrow{margin-bottom:20px}
+.contact-intro p{margin-top:20px}
+.contact-number{margin-top:22px;margin-bottom:10px}
+.contact textarea{min-height:110px}
+.contact .field-error{min-height:18px;margin-bottom:9px}
+.contact form select{margin-bottom:18px}
+footer{padding:12px 38px;align-items:center;gap:24px;flex-wrap:nowrap;border-top:1px solid var(--line)}
+footer .footer-brand{font-size:23px;line-height:1;letter-spacing:-.07em}
+footer address{font-size:11px;font-style:normal;color:var(--muted)}
+footer>a:last-child{font-size:11px;white-space:nowrap}
+.real-atlas{background:var(--paper)}
+.real-atlas .eyebrow{margin-bottom:20px;color:var(--muted)}
+.real-atlas .section-intro>p{max-width:340px}
+.project-atlas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 30px}
+.project-plate{min-width:0;position:relative;border-top:1px solid var(--line);padding-top:16px}
+.project-image{display:block;aspect-ratio:4/5;position:relative;overflow:hidden;background:var(--mineral)}
+.project-image img{transition:transform .7s cubic-bezier(.2,.65,.3,1)}
+.project-image:hover img{transform:scale(1.025)}
+.project-image:after{content:'→';position:absolute;right:12px;bottom:12px;width:38px;height:38px;display:grid;place-items:center;background:var(--paper);font-size:22px;border:1px solid var(--line)}
+.plate-meta{display:flex;justify-content:space-between;align-items:start;gap:16px;margin-top:20px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.plate-meta>span:first-child{color:var(--accent);font-size:13px;line-height:1.2;letter-spacing:0}
+.plate-meta>span:last-child{text-align:right}
+.project-plate h3{font-size:clamp(24px,2.1vw,34px);margin:20px 0 15px;letter-spacing:-.04em}
+.project-plate p{font-size:13px;color:var(--muted);max-width:380px}
+.project-plate .text-link{font-size:12px;margin-top:18px;gap:14px}
+.atlas-instagram{margin-top:38px}
+body.modal-open{overflow:hidden}
+.gallery-dialog{background:var(--paper);color:var(--ink);border:1px solid var(--line);width:min(980px,calc(100% - 36px));max-height:94svh;padding:22px;overflow:auto}
+.gallery-dialog::backdrop{background:rgba(28,41,41,.72);backdrop-filter:blur(4px)}
+.gallery-top{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px}
+.gallery-top h2{font-size:24px;line-height:1.2;letter-spacing:-.03em;margin-top:8px}
+.gallery-top button{min-height:44px;border:1px solid var(--line);background:transparent;white-space:nowrap;font-size:11px;padding:10px 13px}
+#gallery-image{height:65svh;object-fit:contain;background:var(--mineral)}
+.gallery-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+.gallery-bottom button{width:44px;height:44px;border:1px solid var(--line);background:transparent;font-size:22px;flex-shrink:0}
+.gallery-bottom a{font-size:12px;min-height:44px;display:flex;align-items:center;border-bottom:1px solid var(--ink)}
+.gallery-top button:hover,.gallery-bottom button:hover{background:var(--ink);color:var(--paper)}
+@media(min-width:1600px){footer{padding-inline:55px}}
+@media(max-width:1100px){.solution-photo img{height:550px}.accordion .accordion-body{gap:18px;grid-template-columns:110px minmax(0,1fr)}.project-atlas{gap:36px 22px}.plate-meta{font-size:9px}.contact.section{gap:32px}footer{padding-inline:26px}}
+@media(max-width:900px){.project-atlas{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){.gallery-top h2{font-size:21px}}
+@media(max-width:600px){.solution-photo img{height:auto;max-height:580px;aspect-ratio:3/4}.accordion .accordion-body{grid-template-columns:110px minmax(0,1fr);gap:18px}.accordion .accordion-copy p{font-size:13px}.faq .accordion-body{grid-template-columns:100px minmax(0,1fr);gap:18px}.project-atlas{grid-template-columns:1fr;gap:36px}.project-image{aspect-ratio:4/5}.project-plate h3{font-size:28px}.plate-meta{font-size:10px}.real-atlas .section-intro>p{max-width:none}.contact.section{padding-top:40px;padding-bottom:35px;gap:30px}.contact-intro h2{font-size:clamp(39px,10.8vw,52px)}footer{padding:12px 18px;display:grid;grid-template-columns:1fr auto;gap:0 18px}footer address{grid-column:1/-1;grid-row:2;font-size:10px;margin-top:4px}footer .footer-brand{font-size:23px}.gallery-dialog{padding:16px}.gallery-top{gap:12px;align-items:flex-start}.gallery-top h2{font-size:19px}.gallery-top button{font-size:10px;padding:8px}.gallery-top .plate-note{font-size:9px}#gallery-image{height:58svh}.gallery-bottom a{font-size:11px}}
+@media(max-width:360px){.accordion .accordion-body,.faq .accordion-body{grid-template-columns:90px minmax(0,1fr);gap:14px}.gallery-top h2{font-size:17px}.gallery-top button{font-size:9px;padding:6px}}
+@media(prefers-reduced-motion:reduce){.project-image img{transition:none}.project-image:hover img{transform:none}}
+.motion-off .project-image img{transition:none}

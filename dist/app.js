@@ -77,15 +77,17 @@ $$('a[href^="#"]').forEach(link => link.addEventListener('click', event => {
   target.scrollIntoView({ behavior: motionPaused || reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
 }));
 const scopeStates = {
-  object: { image: 'assets/hero-object.webp', alt: 'Арт-визуализация: отдельное декоративное дерево в светлом интерьере', description: 'Одно дерево. Самостоятельный акцент в пространстве.', preset: 'Искусственные деревья' },
-  composition: { image: 'assets/hero-composition.webp', alt: 'Арт-визуализация: светлая цветочная композиция на столе в интерьере', description: 'Цветы, зелень и сосуд. Сочетание, которое собирает интерьер.', preset: 'Готовые композиции' },
-  wall: { image: 'assets/hero-wall.webp', alt: 'Арт-визуализация: вертикальная зелень в масштабе архитектуры', description: 'Вертикальная зелень, которая меняет восприятие пространства.', preset: 'Вертикальная фитостена' }
+  object: { image: 'assets/hero-object.webp', alt: 'Отдельное декоративное дерево в светлом интерьере', description: 'Одно дерево. Самостоятельный акцент в пространстве.', preset: 'Искусственные деревья' },
+  composition: { image: 'assets/hero-composition.webp', alt: 'Светлая цветочная композиция на столе в интерьере', description: 'Цветы, зелень и сосуд. Сочетание, которое собирает интерьер.', preset: 'Готовые композиции' },
+  wall: { image: 'assets/hero-wall.webp', alt: 'Вертикальная зелень в масштабе архитектуры', description: 'Вертикальная зелень, которая меняет восприятие пространства.', preset: 'Вертикальная фитостена' }
 };
 let changeGeneration = 0;
 function selectScope(value) {
   const state = scopeStates[value];
   if (!state) return;
   const sceneImage = $('#scene-image');
+  const notes = $('.scene-notes');
+  notes.hidden = true;
   const generation = ++changeGeneration;
   const newImage = new Image();
   newImage.onload = () => {
@@ -96,6 +98,7 @@ function selectScope(value) {
       sceneImage.alt = state.alt;
       sceneImage.style.opacity = '1';
       $('#scope-description').textContent = state.description;
+      notes.hidden = value !== 'wall';
     };
     if (motionPaused || reducedMotion.matches) applyImage();
     else { sceneImage.style.opacity = '.12'; window.setTimeout(applyImage, 230); }
@@ -106,6 +109,8 @@ function selectScope(value) {
   $('#brief-scale').value = state.preset;
 }
 $$('input[name="scale"]').forEach(radio => radio.addEventListener('change', () => selectScope(radio.value)));
+const initialScope = $('input[name="scale"]:checked')?.value || 'wall';
+if (initialScope !== 'wall') selectScope(initialScope);
 $$('[data-select]').forEach(button => button.addEventListener('click', () => {
   selectScope(button.dataset.select);
   $('#approach').scrollIntoView({ behavior: motionPaused || reducedMotion.matches ? 'instant' : 'smooth' });
@@ -122,24 +127,31 @@ $$('[data-filter]').forEach(button => button.addEventListener('click', () => {
 // Native details retain semantics; height animation only enhances their opening and closing.
 $$('.accordion details').forEach(details => {
   const summary = $('summary', details);
-  const content = $('div', details);
   let animation;
+  let closing = false;
   summary.addEventListener('click', event => {
-    if (motionPaused || reducedMotion.matches) return;
+    if (motionPaused || reducedMotion.matches || !details.animate) {
+      if (animation) { animation.cancel(); animation = null; details.open = !closing; }
+      setTimeout(refreshGeometry, 0);
+      return;
+    }
     event.preventDefault();
-    animation?.cancel();
-    const closing = details.open;
-    if (!closing) details.open = true;
-    const height = content.scrollHeight;
-    animation = content.animate([
-      { height: closing ? height + 'px' : '0px', opacity: closing ? 1 : 0 },
-      { height: closing ? '0px' : height + 'px', opacity: closing ? 0 : 1 }
-    ], { duration: 320, easing: 'cubic-bezier(.2,.65,.3,1)' });
+    const from = details.offsetHeight;
+    closing = animation ? !closing : details.open;
+    if (animation) { animation.cancel(); animation = null; }
+    details.open = true;
+    const style = getComputedStyle(details);
+    const border = (parseFloat(style.borderTopWidth) || 0) + (parseFloat(style.borderBottomWidth) || 0);
+    const to = closing ? summary.offsetHeight + border : details.offsetHeight;
+    details.style.overflow = 'hidden';
+    animation = details.animate({ height: [from + 'px', to + 'px'] }, { duration: 320, easing: 'cubic-bezier(.2,.65,.3,1)' });
     animation.onfinish = () => {
       details.open = !closing;
-      content.style.height = '';
+      details.style.overflow = '';
+      animation = null;
       refreshGeometry();
     };
+    animation.oncancel = () => { details.style.overflow = ''; };
   });
 });
 const sectionObserver = new IntersectionObserver(entries => {
@@ -205,4 +217,44 @@ $('#download-brief').addEventListener('click', () => {
 });
 // Content is visible without JavaScript; no entrance animations hide the page.
 window.addEventListener('load', setupMotion, { once: true });
+document.fonts.ready.then(refreshGeometry);
 setupMotion();
+
+// Real-photo plates retain full-image links when JavaScript is unavailable.
+const gallery = $('#gallery');
+const photoLinks = $$('[data-gallery-image]');
+let photoIndex = 0;
+let galleryOpener;
+function showPhoto(index) {
+  photoIndex = (index + photoLinks.length) % photoLinks.length;
+  const link = photoLinks[photoIndex];
+  $('#gallery-image').src = link.dataset.galleryImage;
+  $('#gallery-image').alt = $('img', link).alt;
+  $('#gallery-title').textContent = link.dataset.galleryTitle;
+  $('#gallery-index').textContent = `Лист ${String(photoIndex + 1).padStart(2, '0')} / ${String(photoLinks.length).padStart(2, '0')}`;
+  $('#gallery-post').href = link.dataset.galleryPost;
+}
+photoLinks.forEach((link, index) => link.addEventListener('click', event => {
+  if (event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  galleryOpener = link;
+  showPhoto(index);
+  gallery.showModal();
+  document.body.classList.add('modal-open');
+}));
+$('#gallery-close').addEventListener('click', () => gallery.close());
+$('#gallery-prev').addEventListener('click', () => showPhoto(photoIndex - 1));
+$('#gallery-next').addEventListener('click', () => showPhoto(photoIndex + 1));
+gallery.addEventListener('keydown', event => {
+  if (event.key === 'ArrowLeft') { event.preventDefault(); showPhoto(photoIndex - 1); }
+  if (event.key === 'ArrowRight') { event.preventDefault(); showPhoto(photoIndex + 1); }
+});
+gallery.addEventListener('close', () => {
+  document.body.classList.remove('modal-open');
+  galleryOpener?.focus({ preventScroll: true });
+});
+gallery.addEventListener('click', event => {
+  if (event.target !== gallery) return;
+  const rect = gallery.getBoundingClientRect();
+  if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) gallery.close();
+});

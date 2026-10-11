@@ -36,3 +36,11 @@ Editable request export preserves changed content. Motion pause/reduced-motion c
 Regenerated individual assets, added true brand content, responsive navigation. Incorrect phone in C2 source corrected. C3 uses photographic scope views, not a realtime3D construction model. Some source-oriented wording can be refined in future P3copy polish.
 
 final result: passed
+
+## 2026-10-11 — scope notes, authentic photo atlas and compact footer
+
+Evidence: qa/revision-2/report.json; actual Chromium captures at 1920, 1440, 1024, 768, 390 and 320px. Root visually inspected desktop/mobile object state, illustrated solutions, real-photo atlas, 320px gallery and contact/footer. Full wall/object/composition switching passes, including rapid alternating choices and final object state: notes are visible only for a wall, with the corresponding loaded image and valid inquiry topic.
+
+Passed: all ten accordion open/close states, image decoding and rapid reversal; six-photo gallery next/previous wrap, keyboard arrows, external post links, Escape and focus restoration; gallery inquiry-topic links; native atlas filters and scope actions; mobile menu/Escape; empty form validation; prepared request; edited download retains changes; motion off/on with stable trigger geometry; reduced motion and no-JS fallback. All 23 displayed image instances decode. Showroom has one photograph. Final footer is 69px at desktop/tablet and 88px at 390/320. No horizontal overflow. Browser errors and failed requests: zero.
+
+Automated WCAG A/AA findings: zero on page, photo dialog and prepared brief. This is focused automated verification, not a full assistive-technology audit. Public source/demo/AI text is absent; source provenance remains outside dist. Static references, exact existing hosting project ID, image counts and npm run check pass. Revision result: passed.
