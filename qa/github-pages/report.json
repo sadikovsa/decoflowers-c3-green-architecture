@@ -1,0 +1,626 @@
+{
+  "date": "2026-10-11T16:08:56.312Z",
+  "checks": [
+    {
+      "slug": "decoflowers-c3-green-architecture",
+      "js": true,
+      "width": 1440,
+      "h1Count": 1,
+      "h1Width": 974,
+      "h1Height": 194.5,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "name": "DecoFlowers — Зелёная архитектура · Ташкент",
+            "description": "Архитектурное озеленение интерьеров в Ташкенте: искусственные деревья, декоративная зелень и фитостены DecoFlowers.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-atlas.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/macro-tree.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-composition.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-wall.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c3-green-architecture",
+      "js": true,
+      "width": 390,
+      "h1Count": 1,
+      "h1Width": 390,
+      "h1Height": 102.46875,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "name": "DecoFlowers — Зелёная архитектура · Ташкент",
+            "description": "Архитектурное озеленение интерьеров в Ташкенте: искусственные деревья, декоративная зелень и фитостены DecoFlowers.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-atlas.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/macro-tree.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-composition.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-wall.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c3-green-architecture",
+      "js": false,
+      "width": 1440,
+      "h1Count": 1,
+      "h1Width": 974,
+      "h1Height": 194.5,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "name": "DecoFlowers — Зелёная архитектура · Ташкент",
+            "description": "Архитектурное озеленение интерьеров в Ташкенте: искусственные деревья, декоративная зелень и фитостены DecoFlowers.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-atlas.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/macro-tree.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-composition.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-wall.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c3-green-architecture",
+      "js": false,
+      "width": 390,
+      "h1Count": 1,
+      "h1Width": 390,
+      "h1Height": 102.46875,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+            "name": "DecoFlowers — Зелёная архитектура · Ташкент",
+            "description": "Архитектурное озеленение интерьеров в Ташкенте: искусственные деревья, декоративная зелень и фитостены DecoFlowers.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-atlas.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/macro-tree.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-composition.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/macro-wall.webp",
+          "width": "1200",
+          "height": "900"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}
