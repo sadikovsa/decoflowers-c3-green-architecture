@@ -1,0 +1,213 @@
+{
+  "repo": "decoflowers-c3-green-architecture",
+  "base_url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+  "verified_at": "2026-10-11T21:08:20.203334+00:00",
+  "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+  "robots": "noindex,follow",
+  "files": [
+    {
+      "file": "styles.css",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/styles.css",
+      "status": 200,
+      "mime": "text/css",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "app.js",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/app.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/",
+      "status": 200,
+      "mime": "text/html",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/hero-atlas.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/hero-atlas.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/macro-tree.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/macro-tree.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-orchid-tree.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-orchid-tree.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/Manrope-OFL.txt",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/Manrope-OFL.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/hero-wall.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/hero-wall.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/cormorant.ttf",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/cormorant.ttf",
+      "status": 200,
+      "mime": "font/ttf",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/hero-object.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/hero-object.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-courtyard.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-courtyard.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/macro-wall.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/macro-wall.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/social-preview.png",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/social-preview.png",
+      "status": 200,
+      "mime": "image/png",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/Cormorant-OFL.txt",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/Cormorant-OFL.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-blue-composition.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-blue-composition.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/favicon.svg",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/favicon.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/gsap.min.js",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/gsap.min.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-arch.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-arch.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/ScrollTrigger.min.js",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/ScrollTrigger.min.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/real-entrance.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/real-entrance.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-white-orchids.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-white-orchids.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/hero-composition.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/hero-composition.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/manrope.ttf",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/manrope.ttf",
+      "status": 200,
+      "mime": "font/ttf",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-chrysanthemums.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-chrysanthemums.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/real-showroom.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/real-showroom.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/macro-composition.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/macro-composition.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-greenery.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-greenery.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-bamboo.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-bamboo.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    },
+    {
+      "file": "assets/brand-boxwood.webp",
+      "url": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/assets/brand-boxwood.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "exact_bytes_match": true
+    }
+  ],
+  "failures": []
+}

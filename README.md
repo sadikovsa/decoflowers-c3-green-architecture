@@ -1,6 +1,6 @@
 # DecoFlowers — Зелёная архитектура · Ташкент
 
-GitHub Pages target (publication pending): https://sadikovsa.github.io/decoflowers-c3-green-architecture/
+GitHub Pages: https://sadikovsa.github.io/decoflowers-c3-green-architecture/
 
 Approved DecoFlowers design, with real brand photography, local assets and verified contact information.
 

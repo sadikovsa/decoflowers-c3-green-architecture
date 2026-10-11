@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11T21:10:40.855Z",
+  "checks": [
+    {
+      "mode": {
+        "width": 1440,
+        "js": true,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 974,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": true,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 390,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": false,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 390,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": true,
+        "reduced": true
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 390,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c3-green-architecture/"
+    }
+  ],
+  "errors": []
+}
